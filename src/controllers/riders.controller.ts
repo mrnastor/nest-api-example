@@ -1,7 +1,7 @@
 import { Controller, Get, Post,Put, Delete, Body, Param } from '@nestjs/common';
 import { ApiImplicitParam } from '@nestjs/swagger';
-import { Rider } from '../rider.entity';
-import { RidersService } from './riders.service';
+import { Rider } from '../entities/rider.entity';
+import { RidersService } from '../services/riders.service';
 
 @Controller('riders')
 export class RidersController {

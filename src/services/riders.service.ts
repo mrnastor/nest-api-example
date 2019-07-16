@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { Repository } from 'typeorm';
 import { UpdateResult, DeleteResult } from  'typeorm';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Rider } from '../rider.entity';
+import { Rider } from '../entities/rider.entity';
 
 @Injectable()
 export class RidersService {
